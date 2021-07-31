@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUT'S GOALS</title>
+<link rel="shortcut icon" type="image/jpg" href="PIC PUTERIHALEM.jpg">
+      
+<style>
+{body
+background-color: #FFFFFFFF;
+background-size:cover;
+font-family:verdana ;
+font-size:20px
+margin:0;yle>
+
+line-height:24px; 
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Black;
+  opacity:0.5;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .prflbtn  {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .prflbtn {
+  background-color: black;
+  opacity:0.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/HOMEPAGE.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="prflbtn">Profile</a>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/ABOUTME.html">About Me</a>
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/EDUCATION.html">Education</a>
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/EXPERIENCE.html">Experience</a>
+    </div>
+</li>
+
+  </li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/FAMILY.html">Family</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GOALS.html">My Goals</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GALLERY.html">Gallery</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/CONTACT.html">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+
+<div style="padding-left:25px"></div>
+</ul>
+
+
+
+<body style="margin:0">
+  <!--First Division-->
+  <div id="firstdivision" style="background-image: url(BACKGROUND.jpg);background-size: cover; height: 300px;padding-top: 5px;text-align: center;">
+  <img src="PIC PUTERIHALEM.jpg" style="height: 120px; border-radius: 30%;border:5px solid #BF3F4FFF">
+  <h1 style="font-size: 50px; color: #7F7F7FFF;margin: 12px; ">MY GOALS</h1>
+  <p style="font-size: 20px; color: #BF3F4FFF; ">BY: PUTERI HALEM</p>
+  </div>
+
+
+
+  <!--Second division-->
+  <img src="GOALS.jpg" style="height: 560px;margin: 100px; float: left;"/>
+  <div id="seconddivision" style="height: 600px;margin: 100px;">  
+    <h1>My Goals &#9825;</h1>
+  <p style="line-height: 2.0; font-size: 20px; "><i>A good beginning makes a good ending.</i> I am sure everyone has their own set of goals. What’s your goals or dream? A nice car? A big house? While my main goals is to continue my studies till I achieve Master’s level so that I may serve my family and make them proud. My father and mother mean the world to me. They have worked through all hours of the day and night to provide for my upbringing. It is now my turn to return all of their sacrifices and provide them with a pleasant life.
+  <br>
+  <br>
+  As someone who love to challenge myself, another of my goals is to travel around the world. I’m sure many people enjoy travelling across the world. And yes, I would love to travel and learn about different cultures. If I could travel throughout the world, I would go to all of the historical places before moving on to a bustling city. Moreover, as someone who also enjoys the view, I would like to visit all the island and indirectly to relieve my stress. There are still some unique places in the world waiting for my discovery.
+  </p>
+  </div>
+  <hr></hr>
+
+
+
+  <!--footer-->
+  <div style="height: auto;background-color: #ffcccc">
+    <h1 style="color: #7F7F7FFF; padding: 40px; margin: 0; text-align: center; ">Puteri &#10084;</h1>
+  </div>
+
+  </body>
+  </html>
