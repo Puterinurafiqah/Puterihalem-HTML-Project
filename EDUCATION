@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUT'S EDUCATION</title>
+<link rel="shortcut icon" type="image/jpg" href="PIC PUTERIHALEM.jpg">
+      
+<style>
+{body
+background-color: #FFFFFFFF;
+background-size:cover;
+font-family:verdana ;
+font-size:20px
+margin:0;yle>
+
+line-height:24px; 
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Black;
+  opacity:0.5;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .prflbtn  {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .prflbtn {
+  background-color: black;
+  opacity:0.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/HOMEPAGE.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="prflbtn">Profile</a>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/ABOUTME.html">About Me</a>
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/EDUCATION.html">Education</a>
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/EXPERIENCE.html">Experience</a>
+    </div>
+</li>
+
+  </li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/FAMILY.html">Family</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GOALS.html">My Goals</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GALLERY.html">Gallery</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/CONTACT.html">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+
+<div style="padding-left:25px"></div>
+</ul>
+
+
+
+<body style="margin:0">
+  <!--First Division-->
+  <div id="firstdivision" style="background-image: url(BACKGROUND.jpg);background-size: cover; height: 300px;padding-top: 5px;text-align: center;">
+  <img src="PIC PUTERIHALEM.jpg" style="height: 120px; border-radius: 30%;border:5px solid #BF3F4FFF">
+  <h1 style="font-size: 50px; color: #7F7F7FFF;margin: 20px; ">MY EDUCATION</h1>
+  <p style="font-size: 20px; color: #BF3F4FFF; ">BY: PUTERI HALEM</p></div>
+
+
+
+  <!--Second Division-->
+  <h1><center><u>PRIMARY SCHOOL</h1></center></u>
+  <img src="SKA.jpg" style=" height: 450px;margin: 100px;float: left;"/> 
+  <div id="seconddivision" style="height: 550px;margin: 100px;"> 
+    <h1>Sekolah Kebangsaan Ampangan</h1>
+  <p style="line-height: 2.0; font-size: 20px;">School is the most amazing time in my life. From 2007 to 2012, I studied at Sekolah Kebangsaan Ampangan (SKA). Aside from education, the school has taught me a lot. I learned the value of friendship, discipline and sincerity in primary school. The school has left an indelible memory on me. Beginning with learning ‘ABC' and '123’, the knowledge I gained in primary school has helped me become more successful and capable of reaching <style=" font-size: 15px; color: #2FCDCFFF; ><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GOALS.html">My Goals</a>. I am girl with a big dream. I have always aspired to continue my education at reputable university since I was in standard 5. I’m very a competitive person and I always compete with my friends about who would earn a higher grade in an exam. Primary school memories struck me differently. Every single day at Sekolah Kebangsaan Ampangan (SKA) is a pleasure for me.</p>
+  </div> 
+  <hr></hr>
+
+
+
+  <!--Third Division-->
+  <h1><center><u>SECONDARY SCHOOL</h1></center></u>
+  <img src="SMKSA.jpg" style=" height: 530px;margin: 100px;float: left; "/> 
+  <div id="thirddivision" style="height: 560px;margin: 100px;"> 
+    <h1>Sekolah Menengah Kebangsaan Seri Ampangan</h1>
+  <p style="line-height: 2.0; font-size: 20px;"> New school level, new challenges. Secondary School is quite though for me to find new friends and try to adapt new environment. From 2013 to 2017, I studied at SMK Seri Ampangan (SMKSA). I have been concentrating on my two exams which are PT3 in year 2015 and SPM in year 2017. People always said that someone will remembers their first and last day of school. On my first day of high school, I'm too introverted to make any friends and I'm losing my confidence. And today, I have the best friends and the most valuable learning experience from high school. The memories from high school are priceless. </p>
+  </div> 
+  <hr></hr>
+
+
+
+  <!--Fourth Division-->
+  <h1><center><u>DIPLOMA</h1></center></u>
+  <img src="UITM.jpg" style=" height: 470px;margin: 100px;float: left;"/> 
+  <div id="fourthdivision" style="height: 500px;margin: 100px;"> 
+    <h1>Universiti Teknologi Mara</h1>
+  <p style="line-height: 2.0; font-size: 20px;"> End of my school life. This is meaning the end of my childhood and the beginning of adulthood and start thinking about my future career. I got an offer to enter Universiti Teknologi Mara (UiTM), Campus Rembau in 2019. I'm currently in my final year as a Diploma in Information Management student. On my first day at UiTM, I was concerned because I needed to stay at the college, and it was my first time away from my home. But it became enjoyable because I had a lovely roommate and, not to forget, my wonderful housemate. University has radically changed my life. Make new friends from various backgrounds, learn new things, and become self-sufficient. Now I understand why people say that university life is both exciting and challenging.
+  </div> 
+  <hr></hr>
+
+
+
+  <!--footer-->
+  <div style="height: auto;background-color: #ffcccc">
+    <h1 style="color: #7F7F7FFF; padding: 40px; margin: 0; text-align: center; ">Puteri &#10084;</h1>
+  </div>
+
+  </body>
+  </html>
