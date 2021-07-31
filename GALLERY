@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUT'S GALLERY</title>
+<link rel="shortcut icon" type="image/jpg" href="PIC PUTERIHALEM.jpg">
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<style>
+{body
+background-color: #FFFFFFFF;
+background-size:cover;
+font-family:verdana ;
+font-size:20px
+margin:0;yle>
+
+line-height:24px; 
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Black;
+  opacity:0.5;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .prflbtn  {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .prflbtn {
+  background-color: black;
+  opacity:0.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:25px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/HOMEPAGE.html">Home</a></li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="prflbtn">Profile</a>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/ABOUTME.html">About Me</a>
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/EDUCATION.html">Education</a>
+      <a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/EXPERIENCE.html">Experience</a>
+    </div>
+</li>
+
+  </li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/FAMILY.html">Family</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GOALS.html">My Goals</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/GALLERY.html">Gallery</a></li>
+  <li><a href="file:///C:/Users/acer/Documents/CODING%20IMD311/ASSIGNMENT/CONTACT.html">Contact</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+
+<div style="padding-left:25px"></div>
+</ul>
+
+
+
+<body style="margin:0">
+   <!--First division-->
+  <div id="firstdivision" style="background-image: url(BACKGROUND.jpg);background-size: cover; height: 300px;padding-top: 5px;text-align: center;">
+  <img src="PIC PUTERIHALEM.jpg" style="height: 120px; border-radius: 30%;border:5px solid #BF3F4FFF">
+  <h1 style="font-size: 50px; color: #7F7F7FFF;margin: 12px; ">MY GALLERY</h1>
+  <p style="font-size: 20px; color: #BF3F4FFF; ">BY: PUTERI HALEM</p>
+  </div>
+  <head>
+  <style> 
+  body {
+  background-image: url("GIF 1.gif"), url("GIF 1.gif");
+  background-repeat: no-repeat, repeat;
+  }
+  </style>
+  </head>
+
+
+
+ <!--Gallery Area-->
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="PIC PUTERIHALEM.jpg">
+      <img src="PIC PUTERIHALEM.jpg">
+    </a>
+    <div class="desc">Icon Picture</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="PUTERIHALEM.JPG">
+      <img src="PUTERIHALEM.JPG">
+    </a>
+    <div class="desc">About Myself Picture</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="GOALS.jpg">
+      <img src="GOALS.jpg">
+    </a>
+    <div class="desc">My Goals Picture</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="COMPLETE FAMILY.JPG">
+      <img src="COMPLETE FAMILY.JPG">
+    </a>
+    <div class="desc">Complete Family</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="PARENTS.JPG">
+      <img src="PARENTS.JPG">
+    </a>
+    <div class="desc">My Parents</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="BROTHER & SIS IN LAW.jpg">
+      <img src="BROTHER & SIS IN LAW.jpg">
+    </a>
+    <div class="desc">My Brother & Sister in Law</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="FATHER'S SIDE.JPG">
+      <img src="FATHER'S SIDE.JPG">
+    </a>
+    <div class="desc">My Father's Side</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="MOM'S SIDE.jpg">
+      <img src="MOM'S SIDE.jpg">
+    </a>
+    <div class="desc">My Mother's Side</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="HIKING 1.JPG">
+      <img src="HIKING 1.JPG">
+    </a>
+    <div class="desc">Experience - Hiking</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="BUKIT BATU SAWA.JPG">
+      <img src="BUKIT BATU SAWA.JPG">
+    </a>
+    <div class="desc">Bukit Batu Sawa, Jelebu</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="HOBBY TENNIS.jpg">
+      <img src="HOBBY TENNIS.jpg">
+    </a>
+    <div class="desc">Hobby - Tennis</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="HOBBY BADMINTON.JPG">
+      <img src="HOBBY BADMINTON.JPG">
+    </a>
+    <div class="desc">Hobby - Badminton</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="GUNUNG GUNUNG DATUK.jpg">
+      <img src="GUNUNG DATUK.jpg">
+    </a>
+    <div class="desc">Gunung Datuk, Rembau</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="GUNUNG ANGSI.jpg">
+      <img src="GUNUNG ANGSI.jpg">
+    </a>
+    <div class="desc">Gunung Angsi, N. Sembilan</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="BUKIT BATU PUTIH.JPG">
+      <img src="BUKIT BATU PUTIH.JPG">
+    </a>
+    <div class="desc">Bukit Batu Putih, PD</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="KEPAYANG HILL.JPG">
+      <img src="KEPAYANG HILL.JPG">
+    </a>
+    <div class="desc">Bukit Kepayang, Seremban 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="KEPAYANG HILL 2.JPG">
+      <img src="KEPAYANG HILL 2.JPG">
+    </a>
+    <div class="desc">Bukit Kepayang, Seremban 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="BUKIT SENALING.jpg">
+      <img src="BUKIT SENALING.jpg">
+    </a>
+    <div class="desc">Bukit Senaling, Kuala Pilah</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ART 1.JPG">
+      <img src="ART 1.JPG">
+    </a>
+    <div class="desc">My Art 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ART 2.JPG">
+      <img src="ART 2.JPG">
+    </a>
+    <div class="desc">My Art 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ART 3.JPG">
+      <img src="ART 3.JPG">
+    </a>
+    <div class="desc">My Art 3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ART 4.JPG">
+      <img src="ART 4.JPG">
+    </a>
+    <div class="desc">My Art 4</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="MY CAT.JPG">
+      <img src="MY CAT.JPG">
+    </a>
+    <div class="desc">My Cat 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="MY CAT 2.PNG">
+      <img src="MY CAT 2.PNG">
+    </a>
+    <div class="desc">My Cat 2</div>
+  </div>
+</div>
